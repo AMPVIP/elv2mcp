@@ -35,18 +35,18 @@ Today, thousands of ELV systems — cameras, NVRs, access control, alarms — si
 
 ```bash
 pip install fastmcp httpx
-
+```
 Or clone and install locally:
-bash
+```bash
 
 git clone https://github.com/AMPVIP/elv2mcp.git
 cd elv2mcp
 pip install -e .
-
+```
 2. Configure your devices
 
 Set the ELV2MCP_DEVICES environment variable with a JSON map:
-bash
+```bash
 
 export ELV2MCP_DEVICES='{
   "cam1": {
@@ -63,9 +63,9 @@ export ELV2MCP_DEVICES='{
     "vendor": "dahua"
   }
 }'
-
+```
 3. Run the server
-bash
+```bash
 
 python server.py
 
@@ -86,7 +86,7 @@ json
     }
   }
 }
-
+```
 Restart Claude Desktop — the elv_* tools will appear in the interface.
 🛠️ Available Tools
 Tool	Description	Hikvision	Dahua
