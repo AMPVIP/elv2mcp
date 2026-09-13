@@ -183,8 +183,6 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 - [Model Context Protocol](https://modelcontextprotocol.io/) — the standard this project implements
 - [FastMCP](https://github.com/jlowin/fastmcp) — Python framework for building MCP servers
-- [legacy2mcp](https://github.com/legacy2mcp) — MCP adapter for SOAP/WSDL systems
-- [plctap](https://github.com/plctap) — MCP adapter for industrial PLCs
 
 ---
 
